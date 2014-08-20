@@ -15,6 +15,14 @@ class Index extends CI_Controller {
 		$this->load->view('index');
 	}
 	
+	/**
+	 * 表单提交后跳转
+	 */
+	public function redirect()
+	{
+		
+	}
+	
 	public function test()
 	{
 	    

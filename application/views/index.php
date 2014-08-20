@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>我的爱</title>
-    <link rel="stylesheet" type="text/css" href="/css/common.css?v=<?php echo filemtime(FCPATH.'/css/common.css')?>" media="all"/>
+    <link rel="stylesheet" type="text/css" href="/css/common.css?v=<?php echo filemtime(FCPATH . '/css/common.css')?>" media="all"/>
 </head>
 <body>
     <div class="wrapper">

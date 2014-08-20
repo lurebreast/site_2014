@@ -1,7 +1,7 @@
 <?php
 
 // start profiling
-!empty($_GET['isAdmin']) == 1 && xhprof_enable();
+!empty($_GET['isAdmin']) && $_GET['isAdmin'] == 1 && xhprof_enable();
 
 /*
  *---------------------------------------------------------------
@@ -208,7 +208,7 @@ require_once BASEPATH.'core/CodeIgniter.php';
 /* End of file index.php */
 /* Location: ./index.php */
 
-if ($_GET['isAdmin'] == 1) {
+if (!empty($_GET['isAdmin']) && $_GET['isAdmin'] == 1) {
     // stop profiler
     $xhprof_data = xhprof_disable();
     
@@ -222,8 +222,9 @@ if ($_GET['isAdmin'] == 1) {
     
     // save the run under a namespace "xhprof_foo"
     $run_id = $xhprof_runs->save_run($xhprof_data, "xhprof_foo");
+    
     echo "---------------\n".
          "Assuming you have set up the http based UI for \n".
          "XHProf at some address, you can view run at \n".
-         "<a href=\"http://{$_SERVER['SERVER_ADDR']}/xhprof/xhprof_html/index.php?run=$run_id&source=xhprof_foo\" target=\"_blank\">性能查看</a>\n";
+         "<a href=\"http://{$_SERVER['SERVER_NAME']}/xhprof/xhprof_html/index.php?run=$run_id&source=xhprof_foo\" target=\"_blank\">性能查看</a>\n";
 }
