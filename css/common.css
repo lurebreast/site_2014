@@ -1,0 +1,7 @@
+/*清空padding margin*/
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,select,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+/*设置字体*/
+body,button,input,select,textarea{font:12px/1.5 hiragino sans gb,microsoft yahei,simsun}
+a{text-decoration:none}
+.wrapper{margin: auto;width: 1240px;}
+
