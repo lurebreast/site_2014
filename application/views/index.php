@@ -2,14 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>我的爱</title>
+    <title>henry's site</title>
     <link rel="stylesheet" type="text/css" href="/css/common.css?v=<?php echo filemtime(FCPATH . '/css/common.css')?>" media="all"/>
 </head>
 <body>
     <div class="wrapper">
-        <img src="/images/20140419182853.jpg" width="400" height="560"/><br/>
-    	<img src="/images/20140707224032.jpg" width="400" height="560"/><br/>
-	    <p>何阳桃我爱你</p>
+    123
     </div>
 </body>
 </html>

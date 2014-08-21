@@ -3,5 +3,5 @@ body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,tex
 /*设置字体*/
 body,button,input,select,textarea{font:12px/1.5 hiragino sans gb,microsoft yahei,simsun}
 a{text-decoration:none}
-.wrapper{margin: auto;width: 1240px;}
+.wrapper{margin: auto;width: 1240px;background-color: #F5F5F5;}
 

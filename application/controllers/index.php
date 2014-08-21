@@ -25,8 +25,19 @@ class Index extends CI_Controller {
 	
 	public function test()
 	{
+// 	    $con = mysql_connect('127.0.0.1:3306', 'root', '');
+// 	    mysql_query('set names \'UTF-8\'');
+// 	    mysql_select_db('site');
 	    
-		exit('dd');
+// 	    $result = mysql_query('select * from users where username=\'lurebreast\'');
+// 	    var_dump(mysql_fetch_array($result));exit;
+	    
+	    $this->load->model('user_model');
+	    
+	    $result = $this->user_model->getUserByUserName('lurebreast');
+	    
+	    
+	    var_dump($result);
 	}
 }
 ?>
