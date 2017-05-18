@@ -2,7 +2,7 @@
 class myRedis extends Redis
 {
 	public function get(){
-		echo 'ddd';
+		echo 'dddss';
 	}
 }
 
