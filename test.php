@@ -9,3 +9,5 @@ class myRedis extends Redis
 $redis = new myRedis();
 
 $redis->get();
+
+echo 'dddd';
