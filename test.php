@@ -10,4 +10,4 @@ $redis = new myRedis();
 
 $redis->get();
 
-echo 'ddddddsssg';
+echo 'ddddddsssddg';
